@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.main{
+    background-image: url("assets/bg.png");
+    background-position: center center;
+    height: 100vh;
+}
+
+.main .box{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 70%;
+}
+
+.main nav{
+    width: 80vw;
+    height: 10vh;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:transparent;
+}
+
+nav img, nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.text{
+    padding: 0 20px;
+    text-align: center;
+    font-family: "Martel Sans", sans-serif;
+    position: relative;
+    gap:20px;
+    height:90vh ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.text> :nth-child(1){
+    font-weight: 900;
+    font-size: 45px;
+    text-align: center;
+}
+
+.text> :nth-child(2){
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.text> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+#lang{
+    padding: 4px 25px;
+    border: 1px solid rgb(99, 97, 97);
+    border-radius: 5px;
+    font-size: 15px;
+    color:white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.red-button{
+    padding: 4px 10px;
+    font-size: 15px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.main input{
+    padding: 12px 110px 12px 10px;
+    color: white;
+    font-size: 15px;
+    /* font-weight:700; */
+    background-color:rgba(23, 23, 23, 0.5);
+    border: 1px solid rgba(213, 210, 210,0.7);
+    border-radius: 5px;
+}
+.buttons button{
+    padding: 8px 40px 8px 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+
+}
+
+.separation{
+    height: 7px;
+    width: 100vw;
+    background-color: rgb(47, 47, 47);
+}
+
+.page2{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:white;
+    margin: auto;
+}
+
+.secimg{
+    position: relative;
+}
+.secimg img{
+    position: inherit;
+    z-index: 10;
+    width: 40vw;
+}
+.secimg video{
+    position: absolute;
+    right:50px;
+    top:80px;
+}
+
+.sectxt{
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.sectxt :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+    text-align:left;
+}
+.sectxt :nth-child(2){
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+
+.page3{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    color:white;
+    margin: auto;
+}
+
+.sec2txt :nth-child(1){
+    padding-left: 20px;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.sec2txt :nth-child(2){
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+
+.page4{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    color:white;
+    margin: auto;
+}
+
+.sec3img{
+    position: relative;
+}
+.sec3img video{
+    position: absolute;
+    z-index: -1;
+    right:120px;
+    top:50px;
+}
+
+.sec3txt :nth-child(1){
+    padding-left: 150px;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.sec3txt :nth-child(2){
+    padding-left: 150px;
+    font-size: 24px;
+}
+
+.page5{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    color:white;
+    margin: auto;
+}
+
+.sec4txt :nth-child(1){
+    padding-left: 200px;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.sec4txt :nth-child(2){
+    padding-left: 200px;
+    font-size: 24px;
+}
+
+
+
+
+.page6{
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.faq{
+    transition: all 0.1s ease-out;
+    cursor: pointer;
+    font-size: 23px;
+    padding:25px 20px;
+    color: white;
+    height: 80px;
+    background-color: rgb(36, 36, 36);
+    width: 70vw;
+    margin: auto;
+}
+
+.faqh{
+    color: white;
+    font-weight: bolder;
+    font-size: 48px;
+    height: 100px;
+    text-align: center;
+    padding:30px 0;
+}
+.faq {
+    display: flex;
+    justify-content: space-between;
+}
+.faq img{
+    filter: invert(1);
+}
+
+.faq:hover{
+    background-color: rgb(114, 111, 111);
+}
+.r2w{
+    padding: 40px 0 50px 0;
+    height: 40px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.page6 .buttons input{
+    color: white;
+    padding: 11px 110px 11px 10px;
+    font-size: 15px;
+    background-color: rgb(39, 37, 37);
+}
+
+footer{
+    height: 60vh;
+}
+.footer{
+    height: 30vh;
+    padding: 20px 15vw;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+}
+
+.que{
+    padding:20px 0 20px 15vw;
+    color: white;
+}
+a{
+    color: white;
+}
+
+.lastbut{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15vw;
+    gap: 20px;
+}
+
+.lastbut div{
+    color: rgb(173, 169, 169);
+    font-size: 15px;
+}
